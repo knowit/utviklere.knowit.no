@@ -1,4 +1,4 @@
-# devops.knowit.no
+# frontend.knowit.no
 
 ## Getting started
 
@@ -6,8 +6,6 @@ Development requirements: node.js.
 
 ### Get code and install dependencies
 
-$ git clone git@github.com:knowit/kds.git
-$ cd kds
 $ npm install
 
 ### Change content
