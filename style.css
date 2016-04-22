@@ -353,6 +353,33 @@ td, th {
   margin-top: 50px;
 }
 
+li {
+  color: #dddddd;
+  font-size: 30px;
+}
+
+li span {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 11px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.vline {
+  position: absolute;
+  left: 19px;
+  margin-top: 18px;
+  width: 1px;
+  height: 400px;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.2));
+}
+
+.opacity7 {
+  opacity: 0.7;
+}
+
 @media (min-width: 700px) {
 
 }
