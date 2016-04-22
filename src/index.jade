@@ -59,9 +59,13 @@ block content
       h5 PROSJEKTER VI JOBBER MED NÅ!
       h1 Bli med på ett av disse prosjektene
       .button-row
-          a(href="#" data-target="#prosjekt-carousel" data-slide-to="0") NETTSTED
-          a(href="#" data-target="#prosjekt-carousel" data-slide-to="1") WEBAPPS
-          a(href="#" data-target="#prosjekt-carousel" data-slide-to="2") TJENESTER
+        ul
+          li
+            a(href="#" data-target="#prosjekt-carousel" data-slide-to="0") NETTSTED
+          li
+            a.active(href="#" data-target="#prosjekt-carousel" data-slide-to="1") WEBAPPS
+          li
+            a(href="#" data-target="#prosjekt-carousel" data-slide-to="2") TJENESTER
 
       #prosjekt-carousel.carousel.slide(data-ride="carousel")
         .carousel-inner(role="listbox")
