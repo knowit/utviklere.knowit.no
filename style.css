@@ -41,9 +41,17 @@ section {
   padding: 0;
 }
 
-.content {
-  border: solid 1px #f00;
+h5 {
+  font-size: 12px;
+  font-weight: bold;
+}
 
+
+.text-small {
+  font-size: 14px;
+}
+
+.content {
   font-family: HelveticaNeue;
   font-size: 18px;
   line-height: 1.5;
@@ -70,6 +78,9 @@ section {
 
 .banner .arrow {
   margin-top: 50px;
+  font-size: 32px;
+  opacity: 0.5;
+  color: #FFF;
 }
 
 .hva-ser-vi-etter {
@@ -184,11 +195,26 @@ section {
 }
 
 .i-tillegg {
-  height: 569px;
+  height: 700px;
 }
 
 .i-tillegg .content {
+  padding-top: 50px;
   color: #000;
+}
+
+.i-tillegg .icon {
+  color: #009682;
+  font-size: 24px;
+}
+
+.i-tillegg .box {
+  width: 160px;
+  margin: 0 auto 0 auto;
+}
+
+.i-tillegg .row {
+  margin-top: 40px;
 }
 
 .dette-er-oss {
@@ -289,6 +315,7 @@ td, th {
 
 .carousel-control.left, .carousel-control.right {
   background-image: none;
+  color: #000;
 }
 
 /* Since positioning the image, we need to help out the caption */

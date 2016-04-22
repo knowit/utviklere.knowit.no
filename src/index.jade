@@ -12,7 +12,7 @@ block content
 
           h1 ER DU FRONT-ENDER & KLAR FOR Å JOBBE MED DE FLINKESTE FOLKENE OG DE FETESTE PROSJEKTENE?!
 
-          .arrow.glyphicon.glyphicon-chevron-down
+          .arrow.fa.fa-angle-down
 
   section.hva-ser-vi-etter
     .content
@@ -45,20 +45,29 @@ block content
       h5 PROSJEKTER VI JOBBER MED NÅ!
       h1 Bli med på ett av disse prosjektene
       .button-row
-          a(href="#") NETTSTED
-          a(href="#") WEBAPPS
-          a(href="#") TJENESTER
+          a(href="#" data-target="#prosjekt-carousel" data-slide-to="0") NETTSTED
+          a(href="#" data-target="#prosjekt-carousel" data-slide-to="1") WEBAPPS
+          a(href="#" data-target="#prosjekt-carousel" data-slide-to="2") TJENESTER
+
+      #prosjekt-carousel.carousel.slide(data-ride="carousel")
+        .carousel-inner(role="listbox")
+          .item.active
+            img(src="img/prosjekter.png")
+          .item
+            img(src="img/prosjekter.png")
+          .item
+            img(src="img/prosjekter.png")
 
   section.vi-er-stotle-av
     .content
       h1 #Ruter, Vipps & BankID 2.0, by Knowit!
 
   section.flinke-folk
-    #myCarousel.carousel.slide(data-ride="carousel")
+    #folk-carousel.carousel.slide(data-ride="carousel")
       ol.carousel-indicators
-        li(data-target="#myCarousel" data-slide-to="0").active
-        li(data-target="#myCarousel" data-slide-to="1")
-        li(data-target="#myCarousel" data-slide-to="2")
+        li(data-target="#folk-carousel" data-slide-to="0").active
+        li(data-target="#folk-carousel" data-slide-to="1")
+        li(data-target="#folk-carousel" data-slide-to="2")
       .carousel-inner(role="listbox")
         .item.active
           .content
@@ -67,7 +76,7 @@ block content
             .folk-content
               h5 JOBB MED FLINKE FOLK PÅ SPENNENDE PROSJEKTER
               .folk-selection
-                img(src="img/userpic-1.png" data-target="#myCarousel" data-slide-to="1").userpic
+                img(src="img/userpic-1.png" data-target="#folk-carousel" data-slide-to="1").userpic
                 img(src="img/userpic-2.png").userpic
                 img(src="img/userpic-3.png").userpic
                 img(src="img/userpic-4.png").userpic
@@ -85,22 +94,47 @@ block content
                   i.fa.fa-linkedin
                 a(href="#").social-icon
                   i.fa.fa-github
-
         .item
           .content
             h2 2222222222222222
-      a.left.carousel-control(href="#myCarousel" role="button" data-slide="prev")
+      a.left.carousel-control(href="#folk-carousel" role="button" data-slide="prev")
         span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
         span.sr-only PREV
-      a.right.carousel-control(href="#myCarousel" role="button" data-slide="next")
+      a.right.carousel-control(href="#folk-carousel" role="button" data-slide="next")
         span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
         span.sr-only NEXT
 
 
   section.i-tillegg
     .content
-      h5 LÆR MER &amp; TA DEL
       h1 I tillegg kan vi tilby deg:
+      h5 LÆR MER &amp; TA DEL
+      .row
+        .col-md-4
+          .icon.fa.fa-search
+          h5 LOKASJON
+          .box.text-small Lokaler midt i Oslo Sentrum!
+        .col-md-4
+          .icon.glyphicon.glyphicon-blackboard
+          h5 KURSING
+          .box.text-small Vi holder kurs internt og reiser verden rundt for å bli bedre på det vi gjør.
+        .col-md-4
+          .icon.fa.fa-balance-scale
+          h5 TVERFAGLIG MILJØ
+          .box.text-small Hos oss jobber vi på tvers av strategi, design og utvikling.
+      .row
+        .col-md-4
+          .icon.fa.fa-book
+          h5 ÅRLIG FAGTUR
+          .box.text-small Hvert år holder vi seminar og fagtur.
+        .col-md-4
+          .icon.glyphicon.glyphicon-education
+          h5 STERKT FAGMILJØ
+          .box.text-small Lær sammen med andre. Du kan jobbe med flere kloke hoder.
+        .col-md-4
+          .icon.fa.fa-beer
+          h5 ETTER JOBB
+          .box.text-small Vi har aktiviterer fra dronebygging til øl-brygging.
 
   section.dette-er-oss
     .content
