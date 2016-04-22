@@ -4,15 +4,13 @@ block content
   section.banner
     .overlay
       .content
-        .center-box
-          .knowit-share-square
-            | KNOWIT
+        .knowit-share-square KNOWIT
 
-          h5 LEDIG STILLING
+        h5 LEDIG STILLING
 
-          h1 ER DU FRONT-ENDER & KLAR FOR Å JOBBE MED DE FLINKESTE FOLKENE OG DE FETESTE PROSJEKTENE?!
+        h1 ER DU FRONT-ENDER & KLAR FOR Å JOBBE MED DE FLINKESTE FOLKENE OG DE FETESTE PROSJEKTENE?!
 
-          .arrow.fa.fa-angle-down
+        .arrow.fa.fa-angle-down
 
   section.hva-ser-vi-etter
     .content
@@ -31,6 +29,7 @@ block content
         tr
           td Fordel
           td ES2016, PostCSS/SASS, React.js, Redux, webpack Karma, Jasmine/Moca, ESLint Backend-utvikling
+      .vspace-top-small
       .soknad-knapp.round-button
           a(href="#") SEND INN DIN SØKNAD
 
@@ -58,16 +57,22 @@ block content
           .item
             img(src="img/prosjekter.png")
 
-  section.vi-er-stotle-av
+  section.vi-er-stolte-av
     .content
-      h1 #Ruter, Vipps & BankID 2.0, by Knowit!
+      .row
+        .col-md-8
+          .vi-er-stolte-align
+            h5 VI ER STOLTE AV
+            h1
+              | #Ruter, Vipps &
+              br
+              | BankID 2.0, by Knowit!
+            .box.text-medium Våre flinke folk har vært med på å lage noen av de appene som er brukt av hundre tusenvis av Normen hver eneste dag! Dette er bare begynnelsen! Med deg med på laget kan vi få til enda mer!
+        .col-md-4.vipps
+          img(src="img/vipps-img.png")
 
   section.flinke-folk
     #folk-carousel.carousel.slide(data-ride="carousel")
-      ol.carousel-indicators
-        li(data-target="#folk-carousel" data-slide-to="0").active
-        li(data-target="#folk-carousel" data-slide-to="1")
-        li(data-target="#folk-carousel" data-slide-to="2")
       .carousel-inner(role="listbox")
         .item.active
           .content
@@ -96,7 +101,29 @@ block content
                   i.fa.fa-github
         .item
           .content
-            h2 2222222222222222
+            .folk-picture-big
+              img(src="img/frode-img.png")
+            .folk-content
+              h5 JOBB MED FLINKE FOLK PÅ SPENNENDE PROSJEKTER
+              .folk-selection
+                img(src="img/userpic-1.png" data-target="#folk-carousel" data-slide-to="1").userpic
+                img(src="img/userpic-2.png").userpic
+                img(src="img/userpic-3.png").userpic
+                img(src="img/userpic-4.png").userpic
+                img(src="img/userpic-6.png").userpic
+              h2 Ole Bakstad
+              .folk-roles Teamleder, Front-end utvikling Oslo Kommune
+              hr
+              .folk-desc Frode har over 20 års erfaring med Javascript, HTML og CSS. Han har stålkontoll på Clojure, ClojureScript, Javascript og NodeJs.
+              .folk-social
+                a(href="#").social-icon
+                  i.fa.fa-facebook
+                a(href="#").social-icon
+                  i.fa.fa-twitter
+                a(href="#").social-icon
+                  i.fa.fa-linkedin
+                a(href="#").social-icon
+                  i.fa.fa-github
       a.left.carousel-control(href="#folk-carousel" role="button" data-slide="prev")
         span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
         span.sr-only PREV
@@ -140,5 +167,6 @@ block content
     .content
       h5 DETTE ER OSS
       h2 Hos oss finner du folk som er lidenskapelig  glad i faget sitt og elsker å lage nyskapende løsninger. Vi jobber tverrfaglig og elsker å utfordre oss selv!  Bli en del av teamet!
+      .vspace-top-small
       .soknad-knapp.round-button
           a(href="#") SEND INN DIN SØKNAD
