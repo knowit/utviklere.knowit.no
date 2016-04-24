@@ -27,7 +27,6 @@ $(document).ready(function() {
 
   $('body').click(function(e) {
     closeTypeform();
-    e.stopPropagation();
   });
 
   $(document).on('keyup',function(evt) {
