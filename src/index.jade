@@ -1,6 +1,9 @@
 extends layout.jade
 
 block content
+  #typeform-window
+    .close-window
+    iframe
   section.banner
     .overlay
       .content
@@ -8,7 +11,7 @@ block content
 
         h5 LEDIG STILLING
 
-        h1 ER DU FRONT-ENDER & KLAR FOR Å JOBBE MED DE FLINKESTE FOLKENE OG DE FETESTE PROSJEKTENE?!
+        h1 #{title}
 
         .arrow.fa.fa-angle-down
 
@@ -46,7 +49,7 @@ block content
                   b ES2016, PostCSS/SASS, React.js, Redux, webpack Karma, Jasmine/Moca, ESLint Backend-utvikling
       .vspace-top-small
       .soknad-knapp.round-button
-          a(href="#") SEND INN DIN SØKNAD
+          a SEND INN DIN SØKNAD
 
   section.slik-er-det
     .content
@@ -195,4 +198,4 @@ block content
       h2 Hos oss finner du folk som er lidenskapelig  glad i faget sitt og elsker å lage nyskapende løsninger. Vi jobber tverrfaglig og elsker å utfordre oss selv!  Bli en del av teamet!
       .vspace-top-small
       .soknad-knapp.round-button
-          a(href="#") SEND INN DIN SØKNAD
+          a SEND INN DIN SØKNAD

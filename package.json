@@ -1,16 +1,16 @@
 {
-  "name": "devops.knowit.no-ghpages",
+  "name": "frontend.knowit.no-ghpages",
   "version": "1.0.0",
-  "description": "devops.knowit.no",
+  "description": "frontend.knowit.no",
   "scripts": {
-    "build": "jade --out . --obj src/viewmodel.json --pretty src/index.jade",
-    "start": "jade --out . --obj src/viewmodel.json --pretty --watch src/index.jade"
+    "build": "jade --out . --obj src/viewmodel.json --pretty src/index.jade src/typeform.jade",
+    "start": "jade --out . --obj src/viewmodel.json --pretty --watch src/index.jade src/typeform.jade"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/knowit/devops.knowit.no.git"
+    "url": "git+https://github.com/knowit/frontend.knowit.no.git"
   },
-  "homepage": "http://devops.knowit.no/",
+  "homepage": "http://frontend.knowit.no/",
   "devDependencies": {
     "jade": "^1.11.0"
   }
