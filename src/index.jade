@@ -62,17 +62,17 @@ block content
       .button-row
         ul
           li
-            a(href="#" data-target="#prosjekt-carousel" data-slide-to="0") NETTSTED
+            a.bli-med-button(onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="0") NETTSTED
           li
-            a.active(href="#" data-target="#prosjekt-carousel" data-slide-to="1") WEBAPPS
+            a.bli-med-button.active(onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="1") WEBAPPS
           li
-            a(href="#" data-target="#prosjekt-carousel" data-slide-to="2") TJENESTER
+            a.bli-med-button(onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="2") TJENESTER
 
       #prosjekt-carousel.carousel.slide(data-ride="carousel")
         .carousel-inner(role="listbox")
-          .item.active
-            img.img-responsive(src="img/prosjekter.png")
           .item
+            img.img-responsive(src="img/prosjekter.png")
+          .item.active
             img.img-responsive(src="img/prosjekter.png")
           .item
             img.img-responsive(src="img/prosjekter.png")

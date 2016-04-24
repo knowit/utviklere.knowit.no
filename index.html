@@ -64,15 +64,15 @@
         <h1>Bli med på ett av disse prosjektene</h1>
         <div class="button-row">
           <ul>
-            <li><a href="#" data-target="#prosjekt-carousel" data-slide-to="0">NETTSTED</a></li>
-            <li><a href="#" data-target="#prosjekt-carousel" data-slide-to="1" class="active">WEBAPPS</a></li>
-            <li><a href="#" data-target="#prosjekt-carousel" data-slide-to="2">TJENESTER</a></li>
+            <li><a onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="0" class="bli-med-button">NETTSTED</a></li>
+            <li><a onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="1" class="bli-med-button active">WEBAPPS</a></li>
+            <li><a onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="2" class="bli-med-button">TJENESTER</a></li>
           </ul>
         </div>
         <div id="prosjekt-carousel" data-ride="carousel" class="carousel slide">
           <div role="listbox" class="carousel-inner">
-            <div class="item active"><img src="img/prosjekter.png" class="img-responsive"></div>
             <div class="item"><img src="img/prosjekter.png" class="img-responsive"></div>
+            <div class="item active"><img src="img/prosjekter.png" class="img-responsive"></div>
             <div class="item"><img src="img/prosjekter.png" class="img-responsive"></div>
           </div>
         </div>
@@ -186,6 +186,7 @@
     </section>
     <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
 <!--    | <div class="typeform">-->

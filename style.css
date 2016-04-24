@@ -83,7 +83,6 @@ h5 {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  height: 823px;
 }
 
 .banner .knowit_logo {
@@ -358,6 +357,7 @@ td, th {
   color: #e2eaf3;
   letter-spacing: 2px;
   text-decoration:none;
+  outline: none;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -397,9 +397,9 @@ td, th {
 }
 
 .button-row {
-  width: 400px;
+  width: 300px;
   margin: 0 auto 0 auto;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   padding-top: 10px;
 }
 
@@ -409,6 +409,11 @@ td, th {
   font-size: 12px;
 
   margin-right: 20px;
+}
+
+.bli-med ul {
+  margin: 0;
+  padding: 0;
 }
 
 .bli-med li:last-child  {
@@ -433,6 +438,10 @@ td, th {
 .bli-med li a:hover, .bli-med .active {
   background-color: #656b6f;
   color: #FFF;
+}
+
+.bli-med li a {
+  outline: none;
 }
 
 .opacity7 {
