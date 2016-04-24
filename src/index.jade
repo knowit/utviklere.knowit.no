@@ -52,7 +52,7 @@ block content
     .content
       h1 Slik er det å jobbe i Knowit
       .text-medium Hør det rett fra kilden. En av våre egne har uttalt seg om hvordan det er å jobbe i Knowit.
-      img(src="img/video.png")
+      img.img-responsive(src="img/video.png")
 
   section.bli-med
     .content
@@ -70,11 +70,11 @@ block content
       #prosjekt-carousel.carousel.slide(data-ride="carousel")
         .carousel-inner(role="listbox")
           .item.active
-            img(src="img/prosjekter.png")
+            img.img-responsive(src="img/prosjekter.png")
           .item
-            img(src="img/prosjekter.png")
+            img.img-responsive(src="img/prosjekter.png")
           .item
-            img(src="img/prosjekter.png")
+            img.img-responsive(src="img/prosjekter.png")
 
   section.vi-er-stolte-av
     .content
@@ -156,31 +156,37 @@ block content
       h1 I tillegg kan vi tilby deg:
       h5 LÆR MER &amp; TA DEL
       .row
-        .col-md-4
-          .icon.fa.fa-search
-          h5 LOKASJON
-          .box.text-small Lokaler midt i Oslo Sentrum!
-        .col-md-4
-          .icon.glyphicon.glyphicon-blackboard
-          h5 KURSING
-          .box.text-small Vi holder kurs internt og reiser verden rundt for å bli bedre på det vi gjør.
-        .col-md-4
-          .icon.fa.fa-balance-scale
-          h5 TVERFAGLIG MILJØ
-          .box.text-small Hos oss jobber vi på tvers av strategi, design og utvikling.
-      .row
-        .col-md-4
-          .icon.fa.fa-book
-          h5 ÅRLIG FAGTUR
-          .box.text-small Hvert år holder vi seminar og fagtur.
-        .col-md-4
-          .icon.glyphicon.glyphicon-education
-          h5 STERKT FAGMILJØ
-          .box.text-small Lær sammen med andre. Du kan jobbe med flere kloke hoder.
-        .col-md-4
-          .icon.fa.fa-beer
-          h5 ETTER JOBB
-          .box.text-small Vi har aktiviterer fra dronebygging til øl-brygging.
+        .col-xs-6.col-md-4
+          .tillegg-box
+            .icon.fa.fa-search
+            h5 LOKASJON
+            .box.text-small Lokaler midt i Oslo Sentrum!
+        .col-xs-6.col-md-4
+          .tillegg-box
+            .icon.glyphicon.glyphicon-blackboard
+            h5 KURSING
+            .box.text-small Vi holder kurs internt og reiser verden rundt for å bli bedre på det vi gjør.
+        .col-xs-6.col-md-4
+          .tillegg-box
+            .icon.fa.fa-balance-scale
+            h5 TVERFAGLIG MILJØ
+            .box.text-small Hos oss jobber vi på tvers av strategi, design og utvikling.
+
+        .col-xs-6.col-md-4
+          .tillegg-box
+            .icon.fa.fa-book
+            h5 ÅRLIG FAGTUR
+            .box.text-small Hvert år holder vi seminar og fagtur.
+        .col-xs-6.col-md-4
+          .tillegg-box
+            .icon.glyphicon.glyphicon-education
+            h5 STERKT FAGMILJØ
+            .box.text-small Lær sammen med andre. Du kan jobbe med flere kloke hoder.
+        .col-xs-6.col-md-4
+          .tillegg-box
+            .icon.fa.fa-beer
+            h5 ETTER JOBB
+            .box.text-small Vi har aktiviterer fra dronebygging til øl-brygging.
 
   section.dette-er-oss
     .content
