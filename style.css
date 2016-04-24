@@ -82,6 +82,7 @@ h5 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
   height: 823px;
 }
 
@@ -186,6 +187,12 @@ h5 {
 
 .folk-selection .userpic {
   margin-right: 25px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.folk-selection .active, .folk-selection .userpic:hover {
+  opacity: 1;
 }
 
 .folk-roles {
