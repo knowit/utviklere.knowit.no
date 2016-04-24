@@ -25,12 +25,19 @@ $(document).ready(function() {
     e.stopPropagation();
   });
 
+
+  // Close typeform window
+
+  $(".close-window").click(function(e) {
+    closeTypeform();
+  });
+
   $('body').click(function(e) {
     closeTypeform();
   });
 
   $(document).on('keyup',function(evt) {
-    if (evt.keyCode == 27) {
+    if (evt.keyCode == 27) { // Escape
       closeTypeform();
     }
   });
