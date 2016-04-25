@@ -98,56 +98,34 @@ block content
   section.flinke-folk
     #folk-carousel.carousel.slide(data-ride="carousel")
       .carousel-inner(role="listbox")
-        .item.active
-          .content
-            .folk-picture-big
-              img(src="img/frode-img.png" alt="")
-            .folk-content
-              h5 JOBB MED FLINKE FOLK PÅ SPENNENDE PROSJEKTER
-              .folk-selection
-                img.userpic(src="img/userpic-1.png" data-target="#folk-carousel" data-slide-to="0" alt="").active
-                img.userpic(src="img/userpic-2.png" data-target="#folk-carousel" data-slide-to="1" alt="")
-                img.userpic(src="img/userpic-3.png" data-target="#folk-carousel" data-slide-to="2" alt="")
-                img.userpic(src="img/userpic-4.png" data-target="#folk-carousel" data-slide-to="3" alt="")
-                img.userpic(src="img/userpic-6.png" data-target="#folk-carousel" data-slide-to="4" alt="")
-              h2 Frode Ånonsen
-              .folk-roles Teamleder, Front-end utvikling Oslo Kommune
-              hr
-              .folk-desc Frode har over 20 års erfaring med Javascript, HTML og CSS. Han har stålkontoll på Clojure, ClojureScript, Javascript og NodeJs.
-              .folk-social
-                a(href="#").social-icon
-                  i.fa.fa-facebook
-                a(href="#").social-icon
-                  i.fa.fa-twitter
-                a(href="#").social-icon
-                  i.fa.fa-linkedin
-                a(href="#").social-icon
-                  i.fa.fa-github
-        .item
-          .content
-            .folk-picture-big
-              img(src="img/frode-img.png" alt="")
-            .folk-content
-              h5 JOBB MED FLINKE FOLK PÅ SPENNENDE PROSJEKTER
-              .folk-selection
-                img.userpic(src="img/userpic-1.png" data-target="#folk-carousel" data-slide-to="0" alt="").active
-                img.userpic(src="img/userpic-2.png" data-target="#folk-carousel" data-slide-to="1" alt="")
-                img.userpic(src="img/userpic-3.png" data-target="#folk-carousel" data-slide-to="2" alt="")
-                img.userpic(src="img/userpic-4.png" data-target="#folk-carousel" data-slide-to="3" alt="")
-                img.userpic(src="img/userpic-6.png" data-target="#folk-carousel" data-slide-to="4" alt="")
-              h2 Ole Bakstad
-              .folk-roles Teamleder, Front-end utvikling Oslo Kommune
-              hr
-              .folk-desc Frode har over 20 års erfaring med Javascript, HTML og CSS. Han har stålkontoll på Clojure, ClojureScript, Javascript og NodeJs.
-              .folk-social
-                a(href="#").social-icon
-                  i.fa.fa-facebook
-                a(href="#").social-icon
-                  i.fa.fa-twitter
-                a(href="#").social-icon
-                  i.fa.fa-linkedin
-                a(href="#").social-icon
-                  i.fa.fa-github
+        each person, index in people
+          .item(class=(index==0 ? 'active': ''))
+            .content
+              .folk-picture-big
+                img(src=person.big_pic alt="")
+              .folk-content
+                h5 JOBB MED FLINKE FOLK PÅ SPENNENDE PROSJEKTER
+                .folk-selection
+                  each person2, index2 in people
+                    img.userpic(src=person2.small_pic title=person2.name data-target="#folk-carousel" data-slide-to=index2 alt="" class=(person.name===person2.name ? 'active' : ''))
+                h2 #{person.name}
+                .folk-roles #{person.role}
+                hr
+                .folk-desc #{person.description}
+                .folk-social
+                  if person.facebook
+                    a(href=person.facebook).social-icon
+                      i.fa.fa-facebook
+                  if person.twitter
+                    a(href=person.twitter).social-icon
+                      i.fa.fa-twitter
+                  if person.linkedin
+                    a(href="#").social-icon
+                      i.fa.fa-linkedin
+                  if person.github
+                    a(href="#").social-icon
+                      i.fa.fa-github
+
       a.left.carousel-control(href="#folk-carousel" role="button" data-slide="prev")
         span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
         span.sr-only PREV

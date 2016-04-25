@@ -1,3 +1,61 @@
 {
-  "title": "ER DU FRONT-ENDER & KLAR FOR Å JOBBE MED DE FLINKESTE FOLKENE OG DE FETESTE PROSJEKTENE?!"
+  "title": "ER DU FRONT-ENDER & KLAR FOR Å JOBBE MED DE FLINKESTE FOLKENE OG DE FETESTE PROSJEKTENE?!",
+
+  "people": [
+    {
+      "name": "Frode Ånonsen",
+      "role": "Teamleder, Front-end utvikling Oslo Kommune",
+      "description": "Frode har over 20 års erfaring med Javascript, HTML og CSS. Han har stålkontoll på Clojure, ClojureScript, Javascript og NodeJs.",
+      "facebook": null,
+      "twitter": "tweet",
+      "linkedin": "linked",
+      "github": "github",
+      "small_pic": "img/userpic-1.png",
+      "big_pic": "img/frode-img.png"
+    },
+    {
+      "name": "Ole Bakstsad",
+      "role": "Teamleder, Front-end utvikling Oslo Kommune",
+      "description": "Frode har over 20 års erfaring med Javascript, HTML og CSS. Han har stålkontoll på Clojure, ClojureScript, Javascript og NodeJs.",
+      "facebook": null,
+      "twitter": "tweet",
+      "linkedin": "linked",
+      "github": null,
+      "small_pic": "img/userpic-2.png",
+      "big_pic": "img/frode-img.png"
+    },
+    {
+      "name": "Jan Henrik",
+      "role": "Teamleder, Front-end utvikling Oslo Kommune",
+      "description": "Frode har over 20 års erfaring med Javascript, HTML og CSS. Han har stålkontoll på Clojure, ClojureScript, Javascript og NodeJs.",
+      "facebook": null,
+      "twitter": "tweet",
+      "linkedin": null,
+      "github": "github",
+      "small_pic": "img/userpic-3.png",
+      "big_pic": "img/frode-img.png"
+    },
+    {
+      "name": "Tore Tang",
+      "role": "Teamleder, Front-end utvikling Oslo Kommune",
+      "description": "Frode har over 20 års erfaring med Javascript, HTML og CSS. Han har stålkontoll på Clojure, ClojureScript, Javascript og NodeJs.",
+      "facebook": null,
+      "twitter": "tweet",
+      "linkedin": "linked",
+      "github": "github",
+      "small_pic": "img/userpic-4.png",
+      "big_pic": "img/frode-img.png"
+    },
+    {
+      "name": "Kjell Kjellsen",
+      "role": "Teamleder, Front-end utvikling Oslo Kommune",
+      "description": "Frode har over 20 års erfaring med Javascript, HTML og CSS. Han har stålkontoll på Clojure, ClojureScript, Javascript og NodeJs.",
+      "facebook": null,
+      "twitter": "tweet",
+      "linkedin": "linked",
+      "github": "github",
+      "small_pic": "img/userpic-6.png",
+      "big_pic": "img/frode-img.png"
+    }
+  ]
 }
