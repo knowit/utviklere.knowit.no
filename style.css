@@ -542,3 +542,13 @@ td, th {
 }
 
 }
+
+@media (min-width: 631px) {
+.content h1 {
+    font-size: 52px;
+}
+
+.content h2 {
+    font-size: 32px;
+}
+}
