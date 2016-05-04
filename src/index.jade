@@ -66,11 +66,11 @@ block content
       .button-row
         ul
           li
-            a.bli-med-button(onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="0") NETTSTED
+            a.bli-med-button.nettsted(onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="0") NETTSTED
           li
-            a.bli-med-button.active(onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="1") WEBAPPS
+            a.bli-med-button.webapps.active(onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="1") WEBAPPS
           li
-            a.bli-med-button(onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="2") TJENESTER
+            a.bli-med-button.tjenester(onclick="selectProject(this)" href="#" data-target="#prosjekt-carousel" data-slide-to="2") TJENESTER
 
       #prosjekt-carousel.carousel.slide(data-ride="carousel")
         .carousel-inner(role="listbox")

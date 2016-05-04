@@ -19,11 +19,31 @@ function closeTypeform() {
 }
 
 $(document).ready(function() {
-    $(".arrow").click(function() {
-        $('html, body').animate({
-            scrollTop: $(".hva-ser-vi-etter").offset().top
-        }, 500);
-    });
+  $(".arrow").click(function() {
+      $('html, body').animate({
+          scrollTop: $(".hva-ser-vi-etter").offset().top
+      }, 500);
+  });
+
+  $('#prosjekt-carousel').carousel({
+    interval: 10000
+  });
+
+  $('#folk-carousel').carousel({
+    interval: 10000
+  });
+
+  $("#prosjekt-carousel").on("slid.bs.carousel", function(event) {
+    var slide_to = $(event.target).find('.active').children('img').attr('alt');
+    switch(slide_to) {
+      case "NETTSTED":
+        selectProject($("a.nettsted").get()); break;
+      case "WEBAPPS":
+        selectProject($("a.webapps").get()); break;
+      case "TJENESTER":
+        selectProject($("a.tjenester").get()); break;
+    }
+  });
 
 /*
   $(".soknad-knapp a").click(function(e) {
