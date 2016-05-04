@@ -19,7 +19,13 @@ function closeTypeform() {
 }
 
 $(document).ready(function() {
+    $(".arrow").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".hva-ser-vi-etter").offset().top
+        }, 500);
+    });
 
+/*
   $(".soknad-knapp a").click(function(e) {
     createTypeformWindow();
     e.stopPropagation();
@@ -41,4 +47,5 @@ $(document).ready(function() {
       closeTypeform();
     }
   });
+*/
 });

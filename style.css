@@ -101,6 +101,10 @@ h5 {
   font-size: 32px;
   opacity: 0.5;
   color: #FFF;
+  cursor: pointer;
+}
+.banner .arrow:hover {
+  opacity: 0.8;
 }
 
 .hva-ser-vi-etter {
