@@ -134,8 +134,36 @@ h5 {
   margin: 0 auto 0 auto;
 }
 
-.slik-er-det video {
+.slik-er-det .video {
+  width: 100%;
+  height: 100%;
   margin: 0 auto 0 auto;
+}
+
+.slik-er-det .box {
+  height: 315px;
+}
+
+.slik-er-det .video-wrapper   {
+  width:100%;
+  height:100%;
+  max-width: 600px;
+  margin:0 auto;
+}
+.slik-er-det .h_iframe {
+  position:relative;
+}
+.slik-er-det .h_iframe .ratio {
+  display:block;
+  width:100%;
+  height:auto;
+}
+.slik-er-det .h_iframe iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
 }
 
 

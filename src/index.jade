@@ -57,7 +57,10 @@ block content
       h1 Slik er det å jobbe i Knowit
       .text-medium Hør det rett fra kilden. En av våre egne har uttalt seg om hvordan det er å jobbe i Knowit.
       .vspace-top-small
-      iframe.video(width="560" height="315" src="https://www.youtube.com/embed/gK5JeMgosSI" frameborder="0" allowfullscreen)
+      .video-wrapper
+        .h_iframe
+          img.ratio(src="img/16x9.png")
+          iframe(src="https://www.youtube.com/embed/gK5JeMgosSI" frameborder="0" allowfullscreen)
 
   section.bli-med
     .content
