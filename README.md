@@ -1,1 +1,3 @@
-# beta.frontend.knowit.no
+# frontend.knowit.no
+
+Test
