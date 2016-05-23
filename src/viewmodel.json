@@ -12,7 +12,7 @@
       "twitter": null,
       "linkedin": null,
       "github": null,
-      "small_pic": "img/headshots/roy.png",
+      "small_pic": "img/headshots-small/roy.png",
       "big_pic": "img/headshots/roy.png"
     },
     {
@@ -23,7 +23,7 @@
       "twitter": null,
       "linkedin": null,
       "github": null,
-      "small_pic": "img/headshots/oyvind.png",
+      "small_pic": "img/headshots-small/oyvind.png",
       "big_pic": "img/headshots/oyvind.png"
     },
     {
@@ -34,7 +34,7 @@
       "twitter": null,
       "linkedin": null,
       "github": null,
-      "small_pic": "img/headshots/karoline.png",
+      "small_pic": "img/headshots-small/karoline.png",
       "big_pic": "img/headshots/karoline.png"
     },
     {
@@ -45,7 +45,7 @@
       "twitter": null,
       "linkedin": null,
       "github": null,
-      "small_pic": "img/headshots/alex.png",
+      "small_pic": "img/headshots-small/alex.png",
       "big_pic": "img/headshots/alex.png"
     },
     {
@@ -56,7 +56,7 @@
       "twitter": null,
       "linkedin": null,
       "github": null,
-      "small_pic": "img/headshots/michael.png",
+      "small_pic": "img/headshots-small/michael.png",
       "big_pic": "img/headshots/michael.png"
     }
   ]
