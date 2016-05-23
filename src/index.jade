@@ -97,12 +97,12 @@ block content
           .item(class=(index==0 ? 'active': ''))
             .content
               .folk-picture-big
-                img(src=person.big_pic alt="")
+                img(src=person.big_pic alt="" width="431")
               .folk-content
                 h5 DYKTIGE PERSONER, GIVENDE PROSJEKTER
                 .folk-selection
                   each person2, index2 in people
-                    img.userpic(src=person2.small_pic title=person2.name data-target="#folk-carousel" data-slide-to=index2 alt="" class=(person.name===person2.name ? 'active' : ''))
+                    img.userpic(src=person2.small_pic width=48 title=person2.name data-target="#folk-carousel" data-slide-to=index2 alt="" class=(person.name===person2.name ? 'active' : ''))
                 h2 #{person.name}
                 .folk-roles #{person.role}
                 hr
