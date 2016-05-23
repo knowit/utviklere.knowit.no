@@ -7,57 +7,57 @@
     {
       "name": "Roy",
       "role": "Full-stack-utvikler - NSB",
-      "description": "Roy har bred erfaring som spenner fra databaseadminstrasjon til webutvikling med dynamiske språk. Spesielt engasjert i klientteknologier innen web og løsninger basert på Ruby og Rails.",
+      "description": "Roy er spesielt engasjert i klientteknologier innen web og løsninger basert på Ruby og Rails.",
       "facebook": null,
       "twitter": null,
       "linkedin": null,
       "github": null,
-      "small_pic": "img/userpic-2.png",
-      "big_pic": "img/frode-img.png"
+      "small_pic": "img/headshots/roy.png",
+      "big_pic": "img/headshots/roy.png"
     },
     {
       "name": "Øyvind",
       "role": "Teamleder - Kommuneforlaget",
-      "description": "Øyvind er en fullstack utvikler, men har de siste årene jobbet mest med frontendteknologier som JavaScript, HTML5 og CSS3. I tillegg har han stor interesse for mobile plattformer og responsivt design. Gjennom flere år som konsulent har han fått kunnskap om og erfaring med hele systemutviklingsprosessen, fra planlegging og design til testing og produksjonssetting.",
+      "description": "Øyvind er en fullstack utvikler, men har de siste årene fokusert seg mye mer inn på alt innenfor JavaScript.",
       "facebook": null,
       "twitter": null,
       "linkedin": null,
       "github": null,
-      "small_pic": "img/userpic-2.png",
-      "big_pic": "img/frode-img.png"
+      "small_pic": "img/headshots/oyvind.png",
+      "big_pic": "img/headshots/oyvind.png"
     },
     {
       "name": "Karoline",
-      "role": "Front-end utvikling - Oslo Kommune",
-      "description": "Karoline behersker både teknologi og mellommenneskelig kommunikasjon på en god måte. På fritiden leser hun faglitteratur innen interaksjonsdesign, usability og annet innen samme fagområde.",
+      "role": "Frontend-utvikling - Oslo Kommune",
+      "description": "På jobb driver hun med webteknologi i praksis, og når hun drar hjem leser Karoline faglitteratur innen interaksjonsdesign, usability og annet innen samme fagområde.",
       "facebook": null,
       "twitter": null,
       "linkedin": null,
       "github": null,
-      "small_pic": "img/userpic-2.png",
-      "big_pic": "img/frode-img.png"
+      "small_pic": "img/headshots/karoline.png",
+      "big_pic": "img/headshots/karoline.png"
     },
     {
       "name": "Alexander",
-      "role": "Front-end utvikling - Kommuneforlaget",
-      "description": "Alex har bygget opp betydelig kompetanse innenfor et bredt spekter av teknologier og ansvarsområder. Han har jobbet med alt fra små hobbyprosjekter til store samfunnskritiske systemer og han brenner for håndverket og kvaliteten i IT-faget.",
+      "role": "Frontend-utvikling - Kommuneforlaget",
+      "description": "Alex har jobbet med alt fra små hobbyprosjekter til store samfunnskritiske systemer og han brenner for håndverket.",
       "facebook": null,
       "twitter": null,
       "linkedin": null,
       "github": null,
-      "small_pic": "img/userpic-2.png",
-      "big_pic": "img/frode-img.png"
+      "small_pic": "img/headshots/alex.png",
+      "big_pic": "img/headshots/alex.png"
     },
     {
-      "name": "Martin",
-      "role": "Teamleder, Front-end utvikling - Oslo Kommune",
-      "description": "Engasjert frontendutvikler med bred erfaring. Opptatt av å rette opp urettferdig dårlig rykte til javascript gjennom å være kvalitetsbevisst og skrive god, modulær og vedlikeholdbar kode. Vektlegger testing og aktivt bruke et stort sett med verktøy for å effektivisere utviklingsprosessen.",
+      "name": "Michael",
+      "role": "Frontend-utvikling - Kommuneforlaget",
+      "description": "Helt siden han begynte å leke med Chrome extensions har Michael vært spesielt interessert i webteknologi og miljøet rundt.",
       "facebook": null,
       "twitter": null,
       "linkedin": null,
       "github": null,
-      "small_pic": "img/userpic-2.png",
-      "big_pic": "img/frode-img.png"
+      "small_pic": "img/headshots/michael.png",
+      "big_pic": "img/headshots/michael.png"
     }
   ]
 }
