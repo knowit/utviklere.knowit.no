@@ -526,6 +526,16 @@ td, th {
 .folk-content {
     margin: 0 auto 0 auto;
 }
+
+
+}
+
+@media (max-width: 400px) {
+
+.i-tillegg .box {
+  width: 100%;
+}
+
 }
 
 @media (max-width: 1000px) {
