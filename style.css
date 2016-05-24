@@ -7,14 +7,14 @@ html {
     -webkit-font-smoothing: antialiased !important;
 }
 
-h1,h2,h3,h4,h5,h6, p,div {
-    font-weight: 600;
-}
-
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+b {
+  font-weight: 300;
 }
 
 /* Layout */
@@ -25,32 +25,9 @@ section {
 }
 
 
-.content h1 {
-  font-family: HelveticaNeue-Bold;
-  font-size: 7.5vmin;
-  line-height: 1.1;
-  letter-spacing: -2px;
-  font-weight: 100;
-}
-
-.content h2 {
-  font-family: HelveticaNeue-Bold;
-  font-size: 4.61vmin;
-  line-height: 1.1;
-  letter-spacing: -1px;
-  font-weight: 100;
-}
-
-.content h3 {
-  font-weight: 500;
-  font-size: 3.61vmin;
-  margin: 0;
-  padding: 0;
-}
 
 h5 {
   font-size: 12px;
-  font-weight: bold;
 }
 
 
@@ -59,12 +36,12 @@ h5 {
 }
 
 .content {
-
-  font-family: HelveticaNeue;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: #FFF;
   letter-spacing: 1px;
+  font-weight: 100;
 
   max-width: 700px;
   margin: 0 auto 0 auto;
@@ -74,6 +51,24 @@ h5 {
   transform: translateY(-50%);
 
   overflow: hidden;
+}
+
+.content h1 {
+  font-size: 7.5vmin;
+  line-height: 1.1;
+  letter-spacing: -2px;
+}
+
+.content h2 {
+  font-size: 4.61vmin;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.content h3 {
+  font-size: 3.61vmin;
+  margin: 0;
+  padding: 0;
 }
 
 .center-xy {
@@ -331,23 +326,9 @@ h5 {
   font-size: 11px;
 }
 
-@font-face {
-  font-family: 'HelveticaNeue-Bold';
-  src: url('font/helvetica-neue-bold.ttf');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'HelveticaNeue';
-  src: url('font/helvetica-neue.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .banner h1 {
   max-width: 613px;
-  font-family: HelveticaNeue-Bold;
+  font-weight: bold;
   line-height: 1.1;
   letter-spacing: -2px;
   color: #ffffff;
@@ -402,7 +383,7 @@ td, th {
   height: 60px;
   padding-top: 16px;
 
-  font-family: HelveticaNeue-Bold;
+  font-weight: bold;
   text-align:center;
   color: #e2eaf3;
   letter-spacing: 2px;
