@@ -22,7 +22,7 @@ section {
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: auto;
+  overflow: hidden;
 }
 
 
@@ -311,7 +311,7 @@ h5 {
 
 .hva-ser-vi-etter {
   background-color: #282d2d;
-  height: 100%;
+  height: 1200px;
 }
 
 .banner .knowit-share-square {
