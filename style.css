@@ -22,6 +22,7 @@ section {
   width: 100%;
   margin: 0;
   padding: 0;
+  overflow: auto;
 }
 
 
@@ -46,11 +47,8 @@ h5 {
   max-width: 700px;
   margin: 0 auto 0 auto;
   text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-
-  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .content h1 {
@@ -69,6 +67,14 @@ h5 {
   font-size: 3.61vmin;
   margin: 0;
   padding: 0;
+}
+
+.center-vertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .center-xy {
@@ -111,12 +117,10 @@ h5 {
 }
 
 .hva-ser-vi-etter {
-  height: 1086px;
   background-color: #282d2d;
 }
 
 .slik-er-det {
-  height: 802px;
   background-color: #f9f9f9;
 }
 
@@ -163,7 +167,6 @@ h5 {
 
 
 .bli-med {
-  height: 900px;
 }
 
 .bli-med .content {
@@ -172,17 +175,18 @@ h5 {
 }
 
 .vi-er-stolte-av {
-  height: 632px;
   background-color: #0097a2;
+}
+
+.vi-er-stolte-av .content {
+  max-width: 800px;
+  text-align: left;
+  overflow: auto;
 }
 
 .vi-er-stolte-align {
   padding-top: 80px;
-}
-
-.vi-er-stolte-av .content {
-  text-align: left;
-  max-width: 800px;
+  float: left;
 }
 
 .vi-er-stolte-av .box {
@@ -190,24 +194,20 @@ h5 {
 }
 
 .vipps {
-  text-align: right;
+  float: right;
 }
 
 .flinke-folk {
-  height: 664px;
   background-color: #f9f9f9;
 }
 
 .flinke-folk .content {
   max-width: 800px;
-  height: 464px;
   color: #000;
   text-align: left;
+  padding-bottom: 200px;
 }
 
-.flinke-folk .item {
-  height: 664px;
-}
 
 .folk-picture-big {
   width: 431px;
@@ -217,7 +217,7 @@ h5 {
 .folk-content {
   margin-left: 431px;
   padding-left: 20px;
-  padding-top: 150px;
+  padding-top: 50px;
   width: 360px;
 }
 
@@ -280,7 +280,6 @@ h5 {
 }
 
 .i-tillegg {
-  height: 700px;
 }
 
 .i-tillegg .content {
@@ -307,12 +306,12 @@ h5 {
 }
 
 .dette-er-oss {
-  height: 569px;
   background-color: #3b3d40;
 }
 
 .hva-ser-vi-etter {
   background-color: #282d2d;
+  height: 100%;
 }
 
 .banner .knowit-share-square {
@@ -424,7 +423,7 @@ td, th {
   left: 19px;
   margin-top: 20px;
   width: 1px;
-  height: 400px;
+  height: 450px;
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.2));
   z-index: -99;
 }
@@ -527,7 +526,6 @@ td, th {
     margin: 0 auto 0 auto;
 }
 
-
 }
 
 @media (max-width: 400px) {
@@ -539,6 +537,19 @@ td, th {
 }
 
 @media (max-width: 1000px) {
+
+.vi-er-stolte-align {
+  float: none;
+  display: block;
+  max-width: 470px;
+  margin: 0 auto;
+}
+
+.vipps {
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
 
 #typeform-window iframe {
   padding: 0;
@@ -553,19 +564,15 @@ td, th {
   left: 10px;
 }
 
-.vipps {
-  display: none;
-}
 .content {
-  padding: 0 20px 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
 .bli-med .content, .content {
   width: 100%;
 }
 
-.flinke-folk .content {
-    padding: 0;
-}
 
 .hva-ser-vi-etter .vline {
   margin-left: 20px;
