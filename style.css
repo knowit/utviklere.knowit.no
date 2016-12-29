@@ -429,11 +429,13 @@ td, th {
 }
 
 /* HACK for chrome :( */
+/*
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   .hva-ser-vi-etter .vline {
       left: 20px;
   }
 }
+*/
 
 .button-row {
   width: 300px;
