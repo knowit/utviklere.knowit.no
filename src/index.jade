@@ -14,7 +14,7 @@ block content
 
         h1 #{title}
 
-        .arrow.fa.fa-angle-down
+        .arrow.fa.fa-angle-down(onclick="scrollToPage('.hva-ser-vi-etter')")
 
   section.hva-ser-vi-etter
     .content.center-vertical
@@ -52,8 +52,7 @@ block content
       .soknad-knapp.round-button
           a(href=soknad_link target="_blank") SEND INN DIN SØKNAD
 
-
-      .arrow.fa.fa-angle-down
+      .arrow.fa.fa-angle-down(onclick="scrollToPage('.slik-er-det')")
 
   section.slik-er-det
     .content
@@ -64,6 +63,7 @@ block content
         .h_iframe
           img.ratio(src="img/16x9.png")
           iframe(src="https://www.youtube.com/embed/gK5JeMgosSI" frameborder="0" allowfullscreen)
+      .arrow-dark.fa.fa-angle-down(onclick="scrollToPage('.bli-med')")
 
   section.bli-med
     .content
@@ -80,6 +80,8 @@ block content
             img.img-responsive(src="img/prosjekter.png" alt="WEBAPPS")
           .item
             img.img-responsive(src="img/prosjekter.png" alt="TJENESTER")
+
+      .arrow-dark.fa.fa-angle-down(onclick="scrollToPage('.vi-er-stolte-av')")
 
   section.vi-er-stolte-av
     .content

@@ -105,11 +105,18 @@ h5 {
   padding-bottom: 20px;
 }
 
-.banner .arrow {
+.arrow.fa {
   margin-top: 50px;
   font-size: 32px;
   opacity: 0.5;
   color: #FFF;
+  cursor: pointer;
+}
+.arrow-dark.fa {
+  margin-top: 50px;
+  font-size: 32px;
+  opacity: 0.5;
+  color: #000;
   cursor: pointer;
 }
 .banner .arrow:hover {

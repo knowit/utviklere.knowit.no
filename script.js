@@ -18,12 +18,13 @@ function closeTypeform() {
   $("#typeform-window").fadeOut();
 }
 
+function scrollToPage(selector) {
+    $('html, body').animate({
+        scrollTop: $(selector).offset().top
+    }, 500);
+}
+
 $(document).ready(function() {
-  $(".arrow").click(function() {
-      $('html, body').animate({
-          scrollTop: $(".hva-ser-vi-etter").offset().top
-      }, 500);
-  });
 
   $('#prosjekt-carousel').carousel({
     interval: 10000
